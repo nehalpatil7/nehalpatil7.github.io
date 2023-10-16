@@ -1,17 +1,12 @@
 /**
- * =================================================================== 
- *
- *  Kards v1.0 Main Stylesheet
- *  url: styleshout.com
- *  03-01-2016
- *  ------------------------------------------------------------------
- *  TOC:
+ * ===================================================================
+ *  Contents:
  *  01. webfonts and iconfonts
  *  02. base style overrides
  *  03. typography & general theme styles
  *  04. preloader
  *  05. forms
- *  06. buttons 
+ *  06. buttons
  *  07. other components
  *  08. common styles
  *  09. header styles
@@ -19,32 +14,30 @@
  *  11. about
  *  12. resume
  *  13. portfolio
- *  14. call-to-action section
- *  15. services
  *  16. stats
  *  17. contact
  *  18. footer
  *
- * =================================================================== 
+ * ===================================================================
  */
 
 
-/** 
+/**
  * ===================================================================
  * 01. webfonts and iconfonts - (_document-setup.scss)
  *
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------
  */
 @import url("fonts.css");
 @import url("font-awesome/css/font-awesome.min.css");
 @import url("micons/micons.css");
 
 
-/** 
+/**
  * ===================================================================
  * 02. base style overrides - (_document-setup.scss)
  *
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------
  */
 html {
 	font-size: 10px;
@@ -94,11 +87,11 @@ a:hover, a:focus, a:active {
 	outline: 0;
 }
 
-/** 
+/**
  * ===================================================================
  * 03. typography & general theme styles - (_document-setup.scss)
  *
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------
  */
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
 	font-family: "poppins-semibold", sans-serif;
@@ -268,7 +261,7 @@ hr {
 }
 
 /**
- * Lists - (_document-setup.scss)  
+ * Lists - (_document-setup.scss)
  * -------------------------------------------------------------------
  */
 ol {
@@ -316,7 +309,7 @@ dd {
 }
 
 /**
- * tables - (_document-setup.scss)  
+ * tables - (_document-setup.scss)
  * -------------------------------------------------------------------
  */
 table {
@@ -349,7 +342,7 @@ th:last-child, td:last-child {
 }
 
 /**
- * Spacing - (_document-setup.scss)  
+ * Spacing - (_document-setup.scss)
  * -------------------------------------------------------------------
  */
 button, .button {
@@ -376,7 +369,7 @@ form,
 }
 
 /**
- * floated image - (_document-setup.scss)  
+ * floated image - (_document-setup.scss)
  * -------------------------------------------------------------------
  */
 img.pull-right {
@@ -387,7 +380,7 @@ img.pull-left {
 }
 
 /**
- * block grid paddings - (_document-setup.scss) 
+ * block grid paddings - (_document-setup.scss)
  * -------------------------------------------------------------------
  */
 .bgrid {
@@ -438,11 +431,11 @@ img.pull-left {
 	height: 6px;
 }
 
-/** 
+/**
  * ===================================================================
  * 04. preloader - (_preloader-1.scss)
  *
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------
  */
 #preloader {
 	position: fixed;
@@ -501,11 +494,11 @@ img.pull-left {
 	}
 }
 
-/** 
+/**
  * ===================================================================
  * 05. forms - (_forms.scss)
  *
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------
  */
 fieldset {
 	border: none;
@@ -620,7 +613,7 @@ label > input[type="checkbox"], label > input[type="radio"] {
 }
 
 /**
- * Style Placeholder Text  
+ * Style Placeholder Text
  * -
  */
 ::-webkit-input-placeholder {
@@ -639,11 +632,11 @@ label > input[type="checkbox"], label > input[type="radio"] {
 	color: #a1a1a1 !important;
 }
 
-/** 
+/**
  * ===================================================================
  * 06. buttons - (_button-essentials.scss)
  *
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------
  */
 .button,
 a.button,
@@ -745,11 +738,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/** 
+/**
  * ===================================================================
  * 07. other components - (_others.scss)
  *
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------
  */
 
 /**
@@ -793,7 +786,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  */
 
 /**
- * drop cap 
+ * drop cap
  */
 .drop-cap:first-letter {
 	float: left;
@@ -848,7 +841,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	content: counter(definitions, decimal) ". ";
 }
 
-/** 
+/**
  * Pull Quotes
  * -----------
  * markup:
@@ -859,7 +852,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  *		</blockquote>
  *	</aside>
  *
- * --------------------------------------------------------------------- 
+ * ---------------------------------------------------------------------
  */
 .pull-quote {
 	position: relative;
@@ -889,7 +882,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	content: none;
 }
 
-/** 
+/**
  * Stats Tab
  * ---------
  * markup:
@@ -1013,14 +1006,14 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .skill-bars li .percent100 { width: 100%; }
 
 
-/** 
+/**
  * ===================================================================
  * 08. common styles (_layout.scss)
  *
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------
  */
 .grey-section {
-	background: #ebebeb;
+	/* background: #ebebeb; */
 }
 .grey-section p.lead {
 	color: #7d7d7d;
@@ -1051,7 +1044,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 /**
  * responsive:
  * common styles
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------
  */
 @media only screen and (max-width:768px) {
 	.section-intro {
@@ -1077,11 +1070,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/** 
+/**
  * ===================================================================
  * 09. header styles - (_layout.scss)
  *
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------
  */
 header {
 	position: fixed;
@@ -1095,7 +1088,7 @@ header .row {
 }
 header .top-bar {
 	display: block;
-	
+
 	min-width: 220px;
 	min-height: 66px;
 	position: absolute;
@@ -1125,7 +1118,7 @@ header .logo a {
 
 /**
  * menu toggle - (_layout.css)
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------
  */
 .menu-toggle {
 	float: left;
@@ -1263,7 +1256,7 @@ header .logo a {
 /**
  * responsive:
  * header styles
- * --------------------------------------------------------------- 
+ * ---------------------------------------------------------------
  */
 @media only screen and (max-width:1024px) {
 	header .top-bar {
@@ -1287,14 +1280,15 @@ header .logo a {
 }
 
 
-/** 
+/**
  * ===================================================================
- * 10. intro - (_layout.scss) 
+ * 10. intro - (_layout.scss)
  *
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------
  */
 #intro {
-	background: #151515 url(../images/intro-bg.jpg) no-repeat center bottom;
+	/* background: #151515 url(../images/intro-bg.webp) no-repeat center bottom; */
+	/* background: #151515 url(../images/circuit.mp4) no-repeat center bottom; */
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1306,6 +1300,16 @@ header .logo a {
 	position: relative;
 	text-align: center;
 }
+
+#intro video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
 .intro-overlay {
 	position: absolute;
 	top: 0;
@@ -1422,7 +1426,7 @@ header .logo a {
 /**
  * responsive:
  * Intro
- * --------------------------------------------------------------- 
+ * ---------------------------------------------------------------
  */
 @media only screen and (max-width:1024px) {
 	.intro-content h1 {
@@ -1483,11 +1487,11 @@ header .logo a {
 }
 
 
-/** 
+/**
  * ===================================================================
  * 11. about - (_layout.scss)
  *
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------
  */
 #about {
 	background: #FFFFFF;
@@ -1567,7 +1571,7 @@ header .logo a {
 /**
  * responsive:
  * about
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------
  */
 @media only screen and (max-width:1024px) {
 	.intro-info {
@@ -1614,15 +1618,31 @@ header .logo a {
 	}
 }
 
-/** 
+/**
  * ===================================================================
  * 12. resume - (_layout.scss)
  *
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------
  */
 #resume {
 	padding-top: 12rem;
 	padding-bottom: 12rem;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	display: table;
+	position: relative;
+}
+
+#resume video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 #resume .resume-header {
@@ -1709,7 +1729,7 @@ header .logo a {
 /**
  * responsive:
  * resume
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------
  */
 @media only screen and (max-width:1024px) {
 	#resume .timeline-header {
@@ -1783,11 +1803,11 @@ header .logo a {
 }
 
 
-/** 
+/**
  * ===================================================================
  * 13. portfolio - (_layout.scss)
  *
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------
  */
 #portfolio {
 	background: #FFFFFF;
@@ -1870,7 +1890,7 @@ header .logo a {
 /**
  * responsive:
  * portfolio
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------
  */
 @media only screen and (max-width:1024px) {
 	#portfolio .folio-title {
@@ -1968,7 +1988,7 @@ header .logo a {
 
 /**
  * transition effect for modal popup - (_layout.scss)
- * ------------------------------------------------------------------ 
+ * ------------------------------------------------------------------
  */
 
 /* overlay at start */
@@ -2020,11 +2040,11 @@ header .logo a {
 	transform: translateY(-100%);
 }
 
-/** 
+/**
  * ===================================================================
  * 14. call-to-action section - (_layout.scss)
  *
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------
  */
 #cta {
 	padding-top: 10.2rem;
@@ -2049,7 +2069,7 @@ header .logo a {
 
 /**
  * section ads - (_layout.scss)
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------
  */
 .section-ads h2 {
 	position: relative;
@@ -2088,14 +2108,14 @@ header .logo a {
 }
 
 
-/** 
+/**
  * ===================================================================
  * 15. services - (_layout.scss)
  *
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------
  */
 #services {
-	background: #313131 url(../images/bg.jpg) no-repeat center;
+	background: #313131 url(../images/bg.webp) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -2176,11 +2196,11 @@ header .logo a {
 }
 
 
-/** 
+/**
  * ===================================================================
  * 16. stats - (_layout.scss)
  *
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------
  */
 #stats {
 	background: #990047;
@@ -2243,11 +2263,11 @@ header .logo a {
 }
 
 
-/** 
+/**
  * ===================================================================
  * 17. contact - (_layout.scss)
  *
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------
  */
 #contact {
 	background: #151515;
@@ -2430,7 +2450,7 @@ header .logo a {
 
 /**
  * loader animation - (_layout.scss)
- * --------------------------------------------------------------- 
+ * ---------------------------------------------------------------
  */
 .s-loader {
 	margin: 1.2rem auto 3rem;
@@ -2484,11 +2504,11 @@ header .logo a {
 }
 
 
-/** 
+/**
  * ===================================================================
  * 18. footer - (_layout.scss)
  *
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------
  */
 footer {
 	padding-bottom: 3rem;
@@ -2561,7 +2581,7 @@ footer .copyright span:last-child::after {
 
 /**
  * go to top - (_layout.scss)
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------
  */
 #go-top {
 	position: fixed;
