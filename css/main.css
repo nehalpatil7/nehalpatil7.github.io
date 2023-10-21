@@ -1122,7 +1122,7 @@ header .logo a {
  */
 .menu-toggle {
 	float: left;
-	width: 60px;
+	/* width: 60px; */
 	height: 60px;
 	margin-left: 20px;
 	margin-top: 13px;
