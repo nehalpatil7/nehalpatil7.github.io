@@ -1578,6 +1578,13 @@ nav .wrapper {
 	object-fit: cover;
 }
 
+#resume h1, h3, h4 {
+	color: white;
+}
+#resume p {
+	color: rgba(255, 255, 255, 0.7);
+}
+
 #resume .resume-header {
 	text-align: center;
 }
@@ -1638,7 +1645,6 @@ nav .wrapper {
 #resume .timeline-header p {
 	font-family: "poppins-regular", sans-serif;
 	font-size: 1.6rem;
-	color: #888888;
 }
 #resume .timeline-content {
 	margin-left: 35%;
@@ -2213,7 +2219,10 @@ nav .wrapper {
 #contact .section-intro h5 {
 	color: #FF0077;
 }
-#contact .section-intro p {
+#contact p {
+	color: rgba(255, 255, 255, 0.7);
+}
+#contact a {
 	color: rgba(255, 255, 255, 0.7);
 }
 
