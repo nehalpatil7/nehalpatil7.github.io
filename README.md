@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="https://skillicons.dev/icons?i=git,js,html,css" />
+</p>
+
 Thanks for downloading this template!
 
 Template Name: MyResume
